@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.count-button{
+  cursor: pointer;
+  background-color: #61dafb;
+  width: fit-content;
+  height: fit-content;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.container{
+  width: 1180px;
+  height: fit-content;
+  border: 3px solid #282c34;
+  margin: 10px auto;
+}
