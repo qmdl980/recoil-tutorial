@@ -6,9 +6,9 @@ import {
     useRecoilState,
     useRecoilValue,
 } from 'recoil';
-import Counter from "./components/Counter";
-import CharacterCounter from "./components/CharacterCounter";
-import TodoList from "./components/TodoList";
+import Counter from "./components/plainCounter/Counter";
+import CharacterCounter from "./components/charCounter/CharacterCounter";
+import TodoList from "./components/todoList/TodoList";
 
 function App() {
     return (

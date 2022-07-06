@@ -1,5 +1,5 @@
 import {useRecoilState} from "recoil";
-import {textState} from "../util/atoms";
+import {textState} from "../../util/atoms";
 
 const Counter = () => {
     const [text, setText] = useRecoilState(textState)

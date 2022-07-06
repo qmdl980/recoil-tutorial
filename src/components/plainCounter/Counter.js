@@ -1,6 +1,6 @@
 import Display from "./Display";
 import {useRecoilState} from "recoil";
-import {countState} from "../util/atoms";
+import {countState} from "../../util/atoms";
 
 const Counter = () => {
     const [count, setCount] = useRecoilState(countState)
