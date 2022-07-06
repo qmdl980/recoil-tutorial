@@ -1,13 +1,13 @@
 import {useRecoilValue} from "recoil";
-import {textState} from "../atoms";
+import {charCountState} from "../util/atoms";
 
 const Counter = () => {
-    const text = useRecoilValue(textState)
+    const count = useRecoilValue(charCountState)
 
     return (
-        <div>
-            Character Count: {text.length}
-        </div>
+        <h2>
+            Character Count: {count}
+        </h2>
     )
 }
 export default Counter

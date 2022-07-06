@@ -1,5 +1,5 @@
 import {useRecoilState} from "recoil";
-import {textState} from "../atoms";
+import {textState} from "../util/atoms";
 
 const Counter = () => {
     const [text, setText] = useRecoilState(textState)
@@ -11,9 +11,9 @@ const Counter = () => {
     return (
         <div>
             <input type={'text'} onChange={onChange}/>
-            <div>
+            <h2>
                 Echo: {text}
-            </div>
+            </h2>
         </div>
     )
 }

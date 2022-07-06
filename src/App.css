@@ -39,13 +39,16 @@
 
 .count-button{
   cursor: pointer;
-  background-color: #61dafb;
+  background-color: dimgrey;
   width: fit-content;
   height: fit-content;
   font-size: 2rem;
   font-weight: bold;
   padding: 8px;
   border-radius: 10px;
+  margin: 10px;
+  color: white;
+  border: 2px solid dimgrey;
 }
 
 .container{
@@ -53,4 +56,41 @@
   height: fit-content;
   border: 3px solid #282c34;
   margin: 10px auto;
+}
+
+input[type=text]{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 5px;
+  outline: 2px solid dimgrey;
+  border: none;
+  border-radius: 8px;
+  transition: outline;
+  transition-duration: 200ms;
+}
+input:hover{
+  outline: 2px solid #61dafb;
+}
+input:focus{
+  outline: 2px solid #61dafb;
+}
+
+.todo-button{
+  background-color: dimgrey;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  border: 2px solid dimgrey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button{
+  transition: color, background-color, border;
+  transition-duration: 200ms;
+}
+button:hover{
+  background-color: #61dafb;
+  border: 2px solid #61dafb;
+  color: black;
 }
